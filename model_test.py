@@ -21,7 +21,7 @@ for FILE in filelist:
   pred.append(predict_img(model,PATH)[0][0])
 
 ans=[]
-with open('human_labels.csv') as csvfile:
+with open('human_ratings.csv') as csvfile:
   reader = csv.DictReader(csvfile)
   for row in reader:
     ans.append(float(row['Attractiveness label']))
