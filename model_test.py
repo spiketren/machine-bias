@@ -15,7 +15,8 @@ model.summary()
 
 filelist = os.listdir(DIR)
 pred=[]
-for FILE in filelist:
+for i in range(451,501):
+  FILE=str(i)+'.jpg'
   PATH=DIR+FILE
   print(FILE,end=' ')
   pred.append(predict_img(model,PATH)[0][0])

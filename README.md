@@ -12,4 +12,4 @@ A pre-trained model described in the article can be downloaded from http://mil.p
 
 Run face_symmetry.m in Matlab or Octave (+ octave-image) to get a symmetry score for each face image.
 
-The Figure 2 in the article was generated from the data in symmetry_beauty.csv.
+Figure 2 in the article was generated from the data in symmetry_beauty.csv.
